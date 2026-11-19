@@ -1,5 +1,15 @@
 # Dataset Pipeline
 
+Local-first pipeline that turns technical documents into quality-checked QA, CoT, DPO and multi-hop datasets for LLM fine-tuning.
+
+![demo](docs/demo.gif)
+
+```bash
+git clone https://github.com/shanthoshkv/Dataset-Pipeline   # README only: the source code is not in this repo
+```
+
+**Live demo:** https://aboutkvs.vercel.app/dataset_pipeline.html
+
 ### Local-First Document-to-Dataset Pipeline for LLM Fine-Tuning
 
 **Dataset Pipeline** is a production-oriented, fully local pipeline that converts technical documents and structured data into high-quality datasets for LLM fine-tuning, reasoning training, and preference optimization.

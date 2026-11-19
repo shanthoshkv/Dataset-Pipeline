@@ -1,0 +1,14 @@
+name: CI
+on:
+  push:
+  pull_request:
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: README and demo asset present
+        run: |
+          test -s README.md
+          test -s docs/demo.gif
+          grep -q 'docs/demo.gif' README.md
